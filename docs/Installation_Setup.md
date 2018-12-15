@@ -24,7 +24,12 @@ Initial setup:
        virtualenv -p python3.6 venv
     ```
 
-5. Install requirements
+5. Activate the virtual environment
+    ```bash
+       source venv/bin/activate
+    ```
+
+6. Install requirements
     ```bash
        pip install requirements.txt 
     ```
